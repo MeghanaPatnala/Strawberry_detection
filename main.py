@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load the pretrained YOLO model
-model = YOLO("C:\\Users\\megha\\PycharmProjects\\myproj2\\strawberrybest.pt")
+model = YOLO("best.pt")
 
 # Open the webcam
 cap = cv2.VideoCapture(0)
